@@ -11,7 +11,5 @@ public class Comment {
 	public Comment(String text) {
 		this.text = text;
 	}
-	
-	
-	
 }
+
