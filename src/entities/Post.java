@@ -20,7 +20,7 @@ public class Post {
 	}
 	@Override
 	public String toString() {
-		StringBuilder sb = new StringBuilder();
+		StringBuilder sb = new StringBuilder(); // Classe que não instancia Strings, apenas modifica o mesmo objeto.
 		sb.append(" Titulo: " + titulo + "\n");
 		sb.append(" Conteudo " + conteudo + "\n");
 		sb.append(" Likes = " + likes + "\n");
@@ -30,7 +30,6 @@ public class Post {
 			sb.append(c + "\n");
 		}
 		return sb.toString();
-		
 	}
 	
 	public String getTitulo() {
@@ -67,8 +66,5 @@ public class Post {
 	public void removeComment(Comment comentario) {
 		comentarios.remove(comentario);
 	}
-	
-	
-	
-	
 }
+
