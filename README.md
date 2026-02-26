@@ -1,4 +1,4 @@
-Projeto Post e Comentários em Java:
+## Projeto Post e Comentários em Java:
 
 Este projeto é uma aplicação simples em Java que simula a criação de um Post com Comentários, aplicando conceitos fundamentais de Programação Orientada a Objetos (POO).
 
